@@ -28,11 +28,17 @@ The goal was to demonstrate a clear understanding of array and object data struc
 - Chair image PNGs from [IMGBIN](https://imgbin.com/)
 - HelvetiPixelMono font by [GabrielFumarulo](https://www.dafont.com/helvetipixelmono.font)
 
+<br />
+<br />
+<br />
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Original SEA Stage 2 - Data Catalog Project README below
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+<br />
+<br />
+<br />
 
 # SEA Stage 2 - Data Catalog Project
 
