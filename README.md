@@ -1,6 +1,6 @@
 # Chair Catalog - SEA Stage 2 Project Assessment
 
-Chair catalog website created for the Snap Engineering Academy project assessment stage. The website displays a catalog of chair, displayed as cards with an image and information including the product name, designer, year made, manufacturer, and a brief description. The app aallows users to view, search through, add, remove, and sort items in the catalog.
+Chair catalog website created for the Snap Engineering Academy project assessment stage. The website displays a catalog of chair, displayed as cards with an image and information including the product name, designer, year made, manufacturer, and a brief description. The app allows users to view, search through, add, remove, and sort items in the catalog.
 
 ## Goal
 
