@@ -89,3 +89,5 @@ const chairDataset = [
     },
 
 ]
+
+export default chairDataset;

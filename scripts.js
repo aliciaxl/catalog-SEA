@@ -23,6 +23,8 @@
  *
  */
 
+import chairDataset from './data.js';
+
 //form 
 // document.addEventListener("DOMContentLoaded", () => {
 //     const dialog = document.querySelector("dialog");
