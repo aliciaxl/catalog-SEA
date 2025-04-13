@@ -1,8 +1,43 @@
+# Chair Catalog - SEA Stage 2 Project Assessment
+
+Chair catalog website created for the Snap Engineering Academy project assessment stage. The website displays a catalog of chair, displayed as cards with an image and information including the product name, designer, year made, manufacturer, and a brief description. The app aallows users to view, search through, add, remove, and sort items in the catalog.
+
+## Goal
+
+The goal was to demonstrate a clear understanding of array and object data structures by building dynamic, interactive features that respond to user interaction to modify how the catalog is displayed.
+
+[Live Preview](https://aliciaxl.github.io/chair-catalog/)
+
+## Features
+
+- Search: Filter through catalog by product name, designer, manufacturer, or description with results displayed in real-time as user performs search.
+- Add: Use form to input new chair into catalog. Fields default to "unknown" values if any details are unknown to user.
+- Sorting: Sort chair catalog based on product name, designer name, or year made.
+- Remove: Remove chair cards easily and quickly.
+- Responsive design: Application design adapts to various screen sizes
+
+## Technologies Used
+
+- Javascript
+- HTML5
+- CSS3
+
+## Acknowledgements
+
+- Search and add icons from [Pictogrammers](https://pictogrammers.com/library/mdi/)
+- Chair image PNGs from [IMGBIN](https://imgbin.com/)
+- HelvetiPixelMono font by [GabrielFumarulo](https://www.dafont.com/helvetipixelmono.font)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Original SEA Stage 2 - Data Catalog Project README below
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 # SEA Stage 2 - Data Catalog Project
 
 This repository contains the instructions, requirements, and starter code for Stage Two of the Snap Engineering Academy application process.
 
----
 
 ## 📚 Table of Contents
 
@@ -130,9 +165,3 @@ If you really want to use data from an API, **save it to a file** (like `.json` 
 ---
 
 > 💬 **Have any questions?** Drop them on the [Padlet here](https://padlet.com/arlenschallenge/2025-snap-engineering-academy-stage-2-project-assessment-que-ndmqkef3wxt8sh72) and we'll get back to you!
-
-
-## Acknowledgements
-- Search and add icons from [Pictogrammers](https://pictogrammers.com/library/mdi/)
-- Chair image PNGs from [IMGBIN](https://imgbin.com/)
-- HelvetiPixelMono font by [GabrielFumarulo](https://www.dafont.com/helvetipixelmono.font)
