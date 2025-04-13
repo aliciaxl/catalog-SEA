@@ -229,7 +229,7 @@ function sortByYearON() {
     showCards(chairDataset);
 };
 
-//Scroll function for 'Back To Top' button, scrolls faster than window default behavior: "smooth"
+//Scroll faster than window default behavior: "smooth"
 function scrollToTop() {
     const scroll = setInterval(() => {
         const current = window.scrollY;
@@ -241,11 +241,12 @@ function scrollToTop() {
     }, 2)
 };
 
-//Displays caret in invisible search input bar
+//Display caret in invisible search input bar 
 function showSearchInput() {
     document.getElementById('search').focus();
 }
 
+//Set up all event listeners, show chair cards
 document.addEventListener("DOMContentLoaded", () => {
     const dialog = document.querySelector("dialog");
     const dialogBg = document.querySelector("#dialog-bg");
