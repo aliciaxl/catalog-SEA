@@ -250,7 +250,7 @@ function scrollToTop() {
         if (current == 0) {
             clearInterval(scroll);
         } else {
-            window.scrollBy(0, -24);
+            window.scrollBy(0, -80);
         }
     }, 2)
 };
