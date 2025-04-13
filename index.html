@@ -1,31 +1,139 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles" />
-    <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="scripts.js"></script>
-  </head>
+    <head>
+        <title>Products</title>
+        <meta name="description" content="A Catalog of Products" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-  <body>
-    <header class="main-header">
-      <h1 class="title">LA TV Shows</h1>
-    </header>
-    <div id="card-container"></div>
-    <div class="card" style="display: none">
-      <div class="card-content">
-        <h2>TV Show Title</h2>
-        <img src="" alt="TV Show Poster" />
-        <ul>
-          <li>Bullet Point 1</li>
-          <li>Bullet Point 2</li>
-          <li>Bullet Point 3</li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer">
-      <button onclick="quoteAlert();">Get A Quote!</button>
-      <button onclick="removeLastCard();">Remove A Card!</button>
-    </div>
-  </body>
+    <body>
+        <header class="main-header">
+            <h1 class="title">CHAIRS!</h1>
+        </header>
+        <hr>
+        <div id="features">
+            <div id ="search-container">
+                <button id="search-btn">
+                    <img src="assets/images/magnify.svg" alt="SEARCH" id="magnify-svg"/>
+                </button>
+                <input type="text" id="search">
+            </div>
+            <button type="button" id="add-btn">
+                <img src="assets/images/plus.svg" alt="SEARCH" id="plus-svg"/>
+            </button>
+            <div>
+                <label for="sort">SORT BY:</label>
+                <select name="sortDropdown" id="sort">
+                    <option value="" disabled selected>SELECT AN OPTION...</option>
+                    <option value="productSort">Product Name</option>
+                    <option value="designerSortAZ">Designer Name: A - Z</option>
+                    <option value="designerSortZA">Designer Name: Z - A</option>
+                    <option value="yearSortNO">Year: Newest → Oldest</option>
+                    <option value="yearSortON">Year: Oldest → Newest</option>
+                </select>
+            </div>
+        </div>
+            <!-- add product form -->
+            <div id="dialog-bg" style="display:none">
+                <dialog id="dialog-box">
+                  <form action="#" method="post" id="add-form">
+                    <div id="form-header">
+                      <div id="form-title">ADD NEW CHAIR</div>
+                      <button type="button" class="cancel-btn">&times;</button>
+                    </div>
+                    <div id="form-content">
+                        <div class="form-row">
+                            <label for="product">Product</label>
+                            <input
+                            type="text"
+                            id="product"
+                            name="product"
+                            minlength="1"
+                            />
+                        </div>
+                        <div class="form-row">
+                            <label for="designer">Designer</label>
+                            <input
+                            type="text"
+                            id="designer"
+                            name="designer"
+                            minlength="1"
+                            />
+                        </div>
+                            <div class="form-row">
+                            <label for="year" >Year Made</label>
+                            <input
+                            type="number"
+                            id="year"
+                            name="year"
+                            minlength="1"
+                            />
+                        </div>
+                        <div class="form-row">
+                            <label for="manufacturer">Manufacturer</label>
+                            <input
+                            type="text"
+                            id="manufacturer"
+                            name="manufacturer"
+                            minlength="1"
+                            />
+                        </div>
+                        <div class="form-row">
+                            <label for="details">Details</label>
+                            <textarea
+                            id="details"
+                            name="details"
+                            rows="4"
+                            ></textarea>
+                        </div>
+                        <label for="image">Image</label>
+                        <input
+                          type="file"
+                          id="image"
+                          name="image"
+                        />
+                    </div>
+                    <div id="form-submit">
+                      <button type="submit" id="submit-button">SUBMIT</button>
+                    </div>
+                  </form>
+                </dialog>
+            </div>
+        </div>
+        <div id="card-container"></div>
+        <div class="card" style="display: none">
+            <div class="card-content">
+                <div id="card-header">
+                    <h2>Chair Name</h2>
+                    <button type="button" class="remove-card">&times;</button>
+                </div>
+                <img src="" alt="Chair Image" />
+                <div class="card-info">
+                    <ul>
+                        <li class="info-row">
+                            <span class="info-label">Designer:</span>
+                            <span class="info-value"></span>
+                        </li>
+                        <li class="info-row">
+                            <span class="info-label">Make year:</span>
+                            <span class="info-value"></span>
+                        </li>
+                        <li class="info-row">
+                            <span class="info-label">Manufacturer:</span>
+                            <span class="info-value"></span>
+                        </li>
+                        <li class="info-row">
+                            <span class="info-label">Details:</span>
+                            <span class="info-value"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <button id="back-to-top">BACK TO TOP ↑</button>
+        </footer>
+        <script type="text/javascript" src="data.js"></script>
+        <script type="text/javascript" src="scripts.js"></script>
+    </body>
 </html>
