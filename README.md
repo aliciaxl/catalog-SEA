@@ -32,12 +32,13 @@ The goal was to demonstrate a clear understanding of array and object data struc
 <br />
 <br />
 <br />
-<br />
-<br />
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Original SEA Stage 2 - Data Catalog Project README below
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<br />
+<br />
 
 # SEA Stage 2 - Data Catalog Project
 
