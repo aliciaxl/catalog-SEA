@@ -25,18 +25,6 @@
 
 import chairDataset from './data.js';
 
-//form 
-// document.addEventListener("DOMContentLoaded", () => {
-//     const dialog = document.querySelector("dialog");
-//     document.querySelector("#dialog-bg").style.display = "block";
-//     dialog.showModal();
-//   });
-
-// document.addEventListener("DOMContentLoaded", () => {
-//     showCards();
-// })
-
-
 // This function adds cards the page to display the data in the array
 function showCards(chairCatalog) {
     const cardContainer = document.getElementById("card-container");
@@ -72,7 +60,7 @@ function editCardContent(card, chair) {
         infoValues[index].textContent = item;
     });
 
-    //Attach event listener to remove button as card is built
+    //Attach event listener to remove button as card is edited
     const removeCardBtn = card.querySelector(".remove-card");
 
     removeCardBtn.addEventListener("click", () => {
@@ -102,7 +90,7 @@ function removeCard(chair) {
 //     showCards(); // Call showCards again to refresh
 // }
 
-//Handles form input checking and resets/closes the form
+//Handle form input checking when submitted
 function handleForm(event) {
     const dialog = document.querySelector("dialog");
     const dialogBg = document.querySelector("#dialog-bg");
@@ -121,12 +109,12 @@ function handleForm(event) {
     }
 
     addToDataset();
-    dialog.close();
-    addForm.reset();
+    dialog.close(); //Close form
+    addForm.reset(); //Reset form fields to empty
     dialogBg.style.display = "none";
 }
 
-//Uses new form input to add to the dataset
+//Add new form input to dataset
 function addToDataset() {
     let image = document.querySelector("#image").value;
     let product = document.querySelector("#product").value;
@@ -171,7 +159,7 @@ function addToDataset() {
     showCards(chairDataset);
 }
 
-//Displays search results as user is typing their search
+//Display search results in real time
 function displaySearchResults() {
     if (!search.value) {
         showCards(chairDataset);
@@ -187,12 +175,10 @@ function displaySearchResults() {
     };
 }
 
-//Calls sort function based on sort selection
+//Call sort function based on sort selection
 function handleSort() {
     const sort = document.querySelector("#sort")
     const sortSelection = sort.value;
-
-    // console.log(sortSelection);
 
     if (sortSelection == "productSort") {
         sortByProductName();
