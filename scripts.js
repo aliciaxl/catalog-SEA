@@ -273,6 +273,6 @@ function addEventListeners() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    addEventListeners;
+    addEventListeners();
     showCards(chairDataset);
 });
