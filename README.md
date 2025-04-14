@@ -26,7 +26,7 @@ The goal was to demonstrate a clear understanding of array and object data struc
 
 - Search and add icons from [Pictogrammers](https://pictogrammers.com/library/mdi/)
 - Chair image PNGs from [IMGBIN](https://imgbin.com/)
-- HelvetiPixelMono font by [GabrielFumarulo](https://www.dafont.com/helvetipixelmono.font)
+- Fonts from [DaFont](https://www.dafont.com/)
 
 <br />
 <br />
