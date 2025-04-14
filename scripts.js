@@ -245,9 +245,8 @@ function scrollToTop() {
 function showSearchInput() {
     document.getElementById('search').focus();
 }
-
-//Set up all event listeners, show chair cards
-document.addEventListener("DOMContentLoaded", () => {
+//Set up all event listeners
+function addEventListeners() {
     const dialog = document.querySelector("dialog");
     const dialogBg = document.querySelector("#dialog-bg");
     const addBtn = document.querySelector("#add-btn");
@@ -271,6 +270,9 @@ document.addEventListener("DOMContentLoaded", () => {
     sort.addEventListener("change", handleSort);
     scrollTopBtn.addEventListener("click", scrollToTop);
     searchBtn.addEventListener("click", showSearchInput);
+}
 
+document.addEventListener("DOMContentLoaded", () => {
+    addEventListeners;
     showCards(chairDataset);
 });
