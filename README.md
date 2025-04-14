@@ -8,6 +8,10 @@ The goal was to demonstrate a clear understanding of array and object data struc
 
 [Live Preview](https://aliciaxl.github.io/chair-catalog/)
 
+<div align="center">
+   <img src="assets/images/preview.png" alt="catalog preview" />
+</div>
+
 ## Features
 
 - Search: Filter through catalog by product name, designer, manufacturer, or description with results displayed in real-time as user performs search.
