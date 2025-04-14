@@ -161,15 +161,18 @@ function addToDataset() {
 
 //Display search results in real time
 function displaySearchResults() {
+    const search = document.querySelector("#search");
+    const searchValue = search.value.toLowerCase();
+
     if (!search.value) {
         showCards(chairDataset);
     } else {
         //Search for match in any word of card
         const searchResult = chairDataset.filter(item => 
-            item.product.toLowerCase().includes(search.value.toLowerCase()) ||
-            item.designer.toLowerCase().includes(search.value.toLowerCase()) ||
-            item.manufacturer.toLowerCase().includes(search.value.toLowerCase()) ||
-            item.details.toLowerCase().includes(search.value.toLowerCase()) 
+            item.product.toLowerCase().includes(searchValue) ||
+            item.designer.toLowerCase().includes(searchValue) ||
+            item.manufacturer.toLowerCase().includes(searchValue) ||
+            item.details.toLowerCase().includes(searchValue) 
         );
         showCards(searchResult);
     };
@@ -196,35 +199,35 @@ function handleSort() {
 
 function sortByProductName() {
     chairDataset.sort((a, b) => {
-        return a.product.toUpperCase().localeCompare(b.product.toUpperCase());
+        return a.product.toLowerCase().localeCompare(b.product.toLowerCase());
     });
     showCards(chairDataset);
 };
 
 function sortByDesignerAZ() {
     chairDataset.sort((a, b) => {
-        return a.designer.toUpperCase().localeCompare(b.designer.toUpperCase());
+        return a.designer.toLowerCase().localeCompare(b.designer.toLowerCase());
     });
     showCards(chairDataset);
 };
 
 function sortByDesignerZA() {
     chairDataset.sort((a, b) => {
-        return b.designer.toUpperCase().localeCompare(a.designer.toUpperCase());
+        return b.designer.toLowerCase().localeCompare(a.designer.toLowerCase());
     });
     showCards(chairDataset);
 };
 
 function sortByYearNO() {
     chairDataset.sort((a, b) => {
-        return a.year - b.year;
+        return b.year - a.year;
     });
     showCards(chairDataset);
 };
 
 function sortByYearON() {
     chairDataset.sort((a, b) => {
-        return b.year - a.year;
+        return a.year - b.year;
     });
     showCards(chairDataset);
 };
