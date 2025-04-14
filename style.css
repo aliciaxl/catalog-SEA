@@ -3,6 +3,11 @@
     src: url('assets/fonts/HelvetiPixelMono.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Vanished';
+    src: url('assets/fonts/Vanished.ttf') format('truetype');
+}
+
 * {
     box-sizing: border-box;
 }
@@ -30,17 +35,19 @@ body {
     justify-content: center;
     align-items: center;
     background-color: white;
-    margin: 40px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 hr {
     width: 100%;
     border: none;
     border-top: 1px solid #ccc;
-    margin: 20px 0;
+    margin: 28px 0;
 }
 
 .title {
+    font-family: 'Vanished';
+    font-size: 28px;
     font-weight: 400;
     /* letter-spacing: -.1rem; */
     /* padding-left: 8px; */
