@@ -177,7 +177,7 @@ button {
 #form-content {
     display: flex;
     flex-direction: column;
-    margin: 0px 4px;
+    margin: 0px 40px;
 }
 
 .form-row {
