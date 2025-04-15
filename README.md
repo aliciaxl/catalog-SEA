@@ -2,7 +2,7 @@
 
 Chair catalog website created for the Snap Engineering Academy project assessment stage. The website displays a catalog of chairs, displayed as cards with an image and information including the product name, designer, year made, manufacturer, and a brief description. The app allows users to:
    * View catalogued chairs.
-   * Search for a chair by product name, designer, manufacturer, or description.
+   * Search for a chair by product name, designer, year, manufacturer, or description.
    * Add a chair into the catalog using a form.
    * Remove a chair.
    * Sort the list of chairs based on product name, designer, or year.
@@ -22,7 +22,7 @@ The goal was to demonstrate a clear understanding of array and object data struc
 This website features a responsive user interface which focuses on simplicity and intuitive user experience across devices. Key features include:
 
 - **Searching & Sorting**
-   - Filter through catalog by product name, designer, manufacturer, or description with results displayed in real-time as user performs search.
+   - Filter through catalog by product name, designer, year, manufacturer, or description with results displayed in real-time as user performs search.
    - Sort chair catalog based on product name, designer name, or year made.
 - **Add Chair Modal**
    - Use form to input new chair into catalog. 

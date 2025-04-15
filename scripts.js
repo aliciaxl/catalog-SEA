@@ -170,6 +170,7 @@ function displaySearchResults() {
         const searchResult = chairDataset.filter(item => 
             item.product.toLowerCase().includes(searchValue) ||
             item.designer.toLowerCase().includes(searchValue) ||
+            item.year.toString().includes(searchValue) ||
             item.manufacturer.toLowerCase().includes(searchValue) ||
             item.details.toLowerCase().includes(searchValue) 
         );
