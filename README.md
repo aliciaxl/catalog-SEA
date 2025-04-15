@@ -1,6 +1,11 @@
 # Chair Catalog - SEA Stage 2 Project Assessment
 
-Chair catalog website created for the Snap Engineering Academy project assessment stage. The website displays a catalog of chair, displayed as cards with an image and information including the product name, designer, year made, manufacturer, and a brief description. The app allows users to view, search through, add, remove, and sort items in the catalog.
+Chair catalog website created for the Snap Engineering Academy project assessment stage. The website displays a catalog of chairs, displayed as cards with an image and information including the product name, designer, year made, manufacturer, and a brief description. The app allows users to:
+   * View catalogued chairs.
+   * Search for a chair by product name, designer, manufacturer, or description.
+   * Add a chair into the catalog using a form.
+   * Remove a chair.
+   * Sort the list of chairs based on product name, designer, or year.
 
 ## Goal
 
@@ -14,11 +19,18 @@ The goal was to demonstrate a clear understanding of array and object data struc
 
 ## Features
 
-- Search: Filter through catalog by product name, designer, manufacturer, or description with results displayed in real-time as user performs search.
-- Add: Use form to input new chair into catalog. Fields default to "unknown" values if any details are unknown to user.
-- Sorting: Sort chair catalog based on product name, designer name, or year made.
-- Remove: Remove chair cards easily and quickly.
-- Responsive design: Application design adapts to various screen sizes
+This website features a responsive user interface which focuses on simplicity and intuitive user experience across devices. Key features include:
+
+- **Searching & Sorting**
+   - Filter through catalog by product name, designer, manufacturer, or description with results displayed in real-time as user performs search.
+   - Sort chair catalog based on product name, designer name, or year made.
+- **Add Chair Modal**
+   - Use form to input new chair into catalog. 
+   - Fields default to "unknown" values if any details are unknown to user.
+- **Remove**
+   - Delete chairs easily with remove button that appears on hover over cards.
+- **Responsive layout**
+   - Application design adapts to various desktop, tablet, and mobile screen sizes.
 
 ## Technologies Used
 
