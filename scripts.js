@@ -34,12 +34,11 @@ function showCards(chairCatalog) {
     for (let i = 0; i < chairCatalog.length; i++) {
         let chair = chairCatalog[i]
 
-
     const nextCard = templateCard.cloneNode(true); // Copy the template card
     editCardContent(nextCard, chair); // Edit title and image
     cardContainer.appendChild(nextCard); // Add new card to the container
-  }
-}
+    };
+};
 
 function editCardContent(card, chair) {
     card.style.display = "flex";
@@ -53,11 +52,11 @@ function editCardContent(card, chair) {
 
     const infoValues = card.querySelectorAll(".info-value");
 
-    const carProperties = ["designer", "year", "manufacturer", "details"]
-    const cardInfo = carProperties.map(prop => chair[prop]);
+    const cardProperties = ["designer", "year", "manufacturer", "details"]
+    // const cardInfo = cardProperties.map(prop => chair[prop]);
 
-    cardInfo.forEach((item, index) => {
-        infoValues[index].textContent = item;
+    cardProperties.forEach((prop, index) => {
+        infoValues[index].textContent = chair[prop];
     });
 
     //Attach event listener to remove button as card is edited
