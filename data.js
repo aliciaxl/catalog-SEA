@@ -96,14 +96,6 @@ const chairDataset = [
         details : "Lightweight tubular steel base with baked leather seat sling"
     },
     {
-        image : "assets/images/coconut.png",
-        product : "Coconut Chair",
-        designer : "George Nelson",
-        year : 1955,
-        manufacturer: "Herman Miller",
-        details : "Triangular cushion on bent steel frame remniscent of coconut segment"
-    },
-    {
         image : "assets/images/lcw.png",
         product : "LCW Chair",
         designer : "Charles and Ray Eames",
