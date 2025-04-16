@@ -87,7 +87,46 @@ const chairDataset = [
         manufacturer: "Herman Miller",
         details : "Bent plywood reclined chair with deep leather cushioning"
     },
-
+    {
+        image : "assets/images/mariposa.png",
+        product : "BKF / Butterfly Chair",
+        designer : "Antonio Bonet, Juan Kurchan, Jorge Ferrari Hardoy",
+        year : 1938,
+        manufacturer: "Cuero Design",
+        details : "Lightweight tubular steel base with baked leather seat sling"
+    },
+    {
+        image : "assets/images/coconut.png",
+        product : "Coconut Chair",
+        designer : "George Nelson",
+        year : 1955,
+        manufacturer: "Herman Miller",
+        details : "Triangular cushion on bent steel frame remniscent of coconut segment"
+    },
+    {
+        image : "assets/images/lcw.png",
+        product : "LCW Chair",
+        designer : "Charles and Ray Eames",
+        year : 1946,
+        manufacturer: "Herman Miller",
+        details : "Molded and curved plywood, ergonomic low profile chair"
+    },
+    {
+        image : "assets/images/wiggle.png",
+        product : "Wiggle Chair",
+        designer : "Frank Gehry",
+        year : 1972,
+        manufacturer: "Vitra",
+        details : "Lightweight, sturdy, humble corrugated cardboard sculptural chair"
+    },
+    {
+        image : "assets/images/panton.png",
+        product : "Panton Chair",
+        designer : "Verner Panton",
+        year : 1960,
+        manufacturer: "Herman Miller",
+        details : "Single S-shape curved molded plastic cantilever form"
+    },
 ]
 
 export default chairDataset;
