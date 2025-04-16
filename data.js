@@ -104,6 +104,14 @@ const chairDataset = [
         details : "Molded and curved plywood, ergonomic low profile chair"
     },
     {
+        image : "assets/images/coconut.png",
+        product : "Coconut Chair",
+        designer : "George Nelson",
+        year : 1955,
+        manufacturer: "Herman Miller",
+        details : "Triangular cushion on bent steel frame remniscent of coconut segment"
+    },
+    {
         image : "assets/images/wiggle.png",
         product : "Wiggle Chair",
         designer : "Frank Gehry",
